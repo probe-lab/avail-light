@@ -35,7 +35,7 @@ libp2p-webrtc = { version = "=0.8.0-alpha", features = ["tokio"] }
 multihash = { version = "0.14.0", default-features = false, features = ["blake3", "sha3"] }
 semver = "1.0.23"
 serde = { version = "1.0", features = ["derive"] }
-tokio = { version = "1.35", features = ["full"] }
+tokio = { version = "1.44", features = ["full"] }
 tokio-stream = { version = "0.1.15", features = ["sync"] }
 tracing = "0.1.35"
 tracing-subscriber = { version = "0.3.17", features = ["json", "env-filter"] }
